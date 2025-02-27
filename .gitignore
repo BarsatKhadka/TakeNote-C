@@ -1,0 +1,23 @@
+# Ignore build directories
+cmake-build-*/
+
+# Ignore compiled object and executable files
+*.o
+*.a
+*.so
+*.exe
+
+# CLion specific files
+.idea/
+
+# Ignore logs and output files
+*.log
+*.out
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore editor specific files (e.g., Vim, Emacs)
+*.swp
+*.swo
